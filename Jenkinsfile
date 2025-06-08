@@ -21,7 +21,7 @@ pipeline{
     }
     stage('Run Application'){
       steps{
-        bat 'java -jar target/maven6-0.0.1-SNAPSHOT.jar'
+        bat 'java -jar target/maven5-0.0.1-SNAPSHOT.jar'
       }
     }
   }
